@@ -21,7 +21,7 @@ function reduceToTotal(array, startingPoint=0){
 }
 
 function reduceToAllTrue(array){
-  let reducer = (a,c)=>a && c
+  let reducer = (a,c)=>a&&c
   return array.reduce(reducer)
 }
 
