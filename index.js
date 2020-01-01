@@ -24,3 +24,7 @@ function reduceToAllTrue(array){
   let reducer = (a,c)=>a && c
   return array.reduce(reducer)
 }
+
+function reduceToAnyTrue(array){
+  return array.reduce((a,c)=>{a||c})
+}
