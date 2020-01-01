@@ -19,3 +19,8 @@ function reduceToTotal(array, startingPoint){
   let reducer = (accumulator, currentValue) => accumulator + currentValue;
   return array.reduce(reducer,startingPoint)
 }
+
+function reduceToAllTrue(array){
+  let reducer = (a,c)=>a && c
+  return array.reduce(reducer)
+}
