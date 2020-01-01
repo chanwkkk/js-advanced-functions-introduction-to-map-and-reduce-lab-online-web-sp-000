@@ -8,5 +8,5 @@ function mapToNoChange(array){
 }
 
 function mapToDouble(array){
-  return array.map(x=>x*(-2))
+  return array.map(x=>x*(2))
 }
