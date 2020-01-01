@@ -6,3 +6,7 @@ function mapToNegativize(array){
 function mapToNoChange(array){
   return array
 }
+
+function mapToDouble(array){
+  return array.map(x=>x*(-2))
+}
