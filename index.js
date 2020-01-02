@@ -28,4 +28,3 @@ function reduceToAllTrue(array){
 function reduceToAnyTrue(array){
   return array.reduce((a,c)=>!!(a||c))
 }
-
